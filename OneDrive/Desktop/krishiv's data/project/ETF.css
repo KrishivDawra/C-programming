@@ -1,0 +1,54 @@
+header h1{
+    color:aliceblue;
+}
+nav {
+    background: linear-gradient(to bottom, #00539C, #002D55);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFD700; /* Golden yellow color */
+    font-family: 'Pacifico', cursive; /* Custom font */
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #FFD700;
+    color: #00539C; /* Change text color on hover */
+}
+
+
+
+body {
+    /* background: linear-gradient(135deg, #FFDA79, #F9A855, #E75868); */
+    background: black;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: black;
+}
+section {
+    /* background: rgba(255, 255, 255, 0.95); */
+    /* background: linear-gradient(135deg, #FFDA79, #F9A855, #E75868); */
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
